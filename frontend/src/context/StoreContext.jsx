@@ -7,7 +7,8 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props)=>{
 
     const [cartItems,setCartItems] = useState({});
-    const url = "https://tomato-food-delivery-b3wh.onrender.com";
+    // const url = "https://tomato-food-delivery-b3wh.onrender.com";
+    const url = "http://localhost:4000";
     const [token,setToken] = useState("");
     const addToCart = async (itemId)=>{
         if(!cartItems[itemId]){
