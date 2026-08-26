@@ -22,7 +22,8 @@ app.use(express.json());
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "http://localhost:5174"
+  "http://localhost:5174",
+  "https://tomato-food-delivery-frontend-gqc5.onrender.com"
 ];
 
 app.use(cors({
