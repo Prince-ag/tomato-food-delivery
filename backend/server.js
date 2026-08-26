@@ -19,11 +19,11 @@ app.use(express.json());
 //   credentials: true
 // }));
 
-
 const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:5174",
-  "https://tomato-food-delivery-frontend-gqc5.onrender.com"
+  "https://tomato-food-delivery-frontend-gqc5.onrender.com",
+  "https://tomato-food-delivery-admin-xm61.onrender.com"
 ];
 
 app.use(cors({
